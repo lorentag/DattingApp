@@ -40,6 +40,10 @@ namespace API.Entities
 
         public ICollection<UserLike> LikedUsers { get; set; }
 
+        public ICollection<Message> MessagesSent { get; set; }
+
+        public ICollection<Message> MessagesReceived { get; set; }
+
 
     }
 }
